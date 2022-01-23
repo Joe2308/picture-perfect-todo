@@ -9,8 +9,20 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
-header {
+
+/* header {
   font-size: 2rem;
+} */
+
+.home-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  text-shadow: 2px 4px 2px rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+.logo-home {
+  text-align: center;
 }
 
 header,

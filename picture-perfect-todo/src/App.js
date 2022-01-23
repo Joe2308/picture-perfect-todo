@@ -11,9 +11,12 @@ function App() {
   const [todos, setTodos] = useState([]);
   return (
     <div className="App">
-      <header>
-      <h1>Picture Perfect</h1>
+      <header className="logo-home">
+      <img src={"./icon.png"} alt="" height="300" width="" />
     </header>
+    <div className="home-title">
+      <h1 className="">On Tour</h1>
+      </div>
     <Form 
     inputText={inputText} 
     todos={todos} 
